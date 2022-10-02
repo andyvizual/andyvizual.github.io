@@ -82,13 +82,14 @@ body {
   margin-top: 25px;
   background-color: var(--bg-color2);
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .hero img {
   height: 32rem;
   width: 24rem;
   padding: 1rem;
+  border-radius: 25px;
 }
 
 .bio {
@@ -122,13 +123,13 @@ body {
 
 /* Skills section */
 .skills {
-  max-width: 42rem;
+  max-width: 65rem;
   margin: auto;
   margin-top: 30px;
   text-align: center;
   padding: 2rem;
   background-color: var(--bg-color2);
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .skill-header {
@@ -159,7 +160,7 @@ body {
   text-align: center;
   padding: 2rem;
   background-color: var(--bg-color2);
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .project-pic {
@@ -209,12 +210,12 @@ body {
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: var(--bg-color2);
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .photos-title {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.7rem;
   color: var(--primary-color);
   letter-spacing: 0.75px;
 }
@@ -222,8 +223,9 @@ body {
 .row {
   display: flex;
   flex-direction: row;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
 }
 
 .column {
@@ -280,20 +282,20 @@ a:hover i {
 /* Social button ends */
 
 .contact {
-  max-width: 42rem;
+  max-width: 65rem;
   margin: auto;
   margin-top: 30px;
   text-align: center;
   padding: 2rem;
   background-color: var(--bg-color2);
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .contact-title {
   text-align: center;
   color: var(--primary-color);
   letter-spacing: 0.75px;
-  padding-bottom: 2rem;
+  padding-bottom: 1.7rem;
 }
 
 .form-group {
