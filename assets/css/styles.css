@@ -28,15 +28,6 @@ html {
   text-decoration: none;
 }
 
-a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-a:hover {
-  color: var(--secondary-color);
-}
-
 body {
   font-family: var(--font-family);
   background-color: var(--bg-color);
@@ -233,7 +224,8 @@ body {
   flex-direction: column;
 }
 
-.column img {
+.column img,
+.column a {
   width: 100%;
   height: 100%;
   object-fit: cover;
